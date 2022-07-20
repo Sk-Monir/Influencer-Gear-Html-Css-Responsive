@@ -79,6 +79,9 @@ header .container .row{
     width: 100%;
     height: 256px;
 }
+.rating .filled{
+    color:#FFC014;
+}
 /* product section End */
 /* new product section Start */
 .newProduct_content{
@@ -92,11 +95,16 @@ footer{
     background-color: #0A0826;
     color:#fff;
     padding:60px 0; 
+    
 }
 footer p{
-    color:#fff;
+    color:#D9DBE1;
+    font-size: 14px;
+    font-weight: 500;
 }
 footer i{
-
+padding: 7px;
+border-radius: 100%;
+background-color: #22213C;
 }
 /* footer Section end */
