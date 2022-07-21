@@ -71,6 +71,9 @@ header .menu a:hover{
     background-color:#22213C ;
     color:#fff
 }
+.responsive_icon{
+    display: none;
+}
 /* header css start  */
 /* banner css start */
 .banner_info h1{
@@ -88,7 +91,14 @@ header .menu a:hover{
 }
 /* banner css start */
 /* logo image section start */
-
+.logo_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_section img{
+    margin: 0 20px;
+}
 /* logo image section end */
 #logo_sec .container{
     border-top:1px solid #AAAAAA ;
@@ -182,6 +192,62 @@ footer i:hover{
     .row{
         flex-direction: column;
     }
+    header .row{
+        flex-direction: row;
+        align-items: center;
+    }
+    header .menu{
+        display: none;
+    }
+    .responsive_icon{
+        display: inline-block;
+        font-size: 30px;
+    }
+   
+    #banner_sec .row{
+        flex-direction: column-reverse;
+    }
+    .banner_info{
+        text-align: center;
+    }
+    #logo_sec .logo_section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .product img{
+        width: 100%;
+        height: auto;
+    }
+    .product_detail h2{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .product_detail h3{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .product_detail p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .newProduct_content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .newProduct_content .newProduct_info{
+        text-align: center;
+        padding: 20px;
+    }
+   
 
 }
+
 /* Responsive css End  */
