@@ -226,18 +226,6 @@ footer i:hover{
         width: 100%;
         height: auto;
     }
-    .product_detail h2{
-        font-size: 50px;
-        font-weight: 700;
-    }
-    .product_detail h3{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .product_detail p{
-        font-size: 20px;
-        font-weight: 500;
-    }
     .newProduct_content{
         display: flex;
         flex-direction: column-reverse;
@@ -290,18 +278,6 @@ footer i:hover{
     .product img{
         width: 100%;
         height: auto;
-    }
-    .product_detail h2{
-        font-size: 50px;
-        font-weight: 700;
-    }
-    .product_detail h3{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .product_detail p{
-        font-size: 20px;
-        font-weight: 500;
     }
     .newProduct_content{
         display: flex;
